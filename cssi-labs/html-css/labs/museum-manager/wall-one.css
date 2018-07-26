@@ -34,6 +34,16 @@ body {
 
 #vg2 {
   flex:0 0 auto;
+  order: 66;
+}
+#vg3 {
+  flex:0 0 auto;
+}
+#vg4 {
+  flex:0 0 auto;
+}
+#vg5 {
+  flex:0 0 auto;
 }
 
 /* Insert the styling for the remaining paintings below */
