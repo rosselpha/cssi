@@ -31,3 +31,22 @@ let dogName = "Lola";
 let dogType = "poodle";
 
 // Complete Task 3 Below
+
+console.log(`i will walk ${dogName1} today at 12 pm`)
+
+if(dogType2 === 'corgi'){
+  console.log(`i will walk ${dogName2} today at 12pm`)
+}else {
+  console.log(`i will walk ${dogName2} today at 1pm`)
+}
+
+if (dogType2 === 'corgi' || 'beagle'){
+  console.log(`i will walk ${dogName2} today at 12pm`);
+
+
+
+}else if (dogType2 === 'bulldog') {
+  console.log(`i will walk ${dogName2} today at 1pm`)
+} else {
+  console.log(`i will walk ${dogName2} today at 2pm`)
+}
