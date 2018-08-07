@@ -12,4 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+
 console.log("Running Click Events Script");
+
+let test = document.querySelectorAll("#container1 .box")
+
+test.forEach( box => {
+  box.addEventListener('click',x =>{
+      x.target.style.backgroundColor = 'red';
+  })
+})
