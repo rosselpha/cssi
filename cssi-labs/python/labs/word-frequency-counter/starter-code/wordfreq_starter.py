@@ -30,6 +30,15 @@ def get_stop_words():
         content = ' '.join(f.readlines()).replace('\n','').replace('\r','').lower()
         return content.split(' ')
 
+        for word in words:
+            if word_count.has_key(word):
+                word_count[word] = word_count[word] + 1
+            else:
+                if word != '':
+                    word_count[word] = 1
+
+print get_stop_words()
+
 def get_highest_words(counts_dictionary, count):
     highest = sorted(counts_dictionary.items(), key=lambda x:x[1])[::-1][:count]
     for word in highest:
@@ -40,3 +49,48 @@ content = read_process_data()
 
 # Write your solution below!
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# la

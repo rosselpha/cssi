@@ -29,3 +29,28 @@ inside_movie = {
 # Write your code below to update the information in accordance with its
 # IMDB page: http://www.imdb.com/title/tt2096673/
 
+inside_movie = ["year_released"] = 2015
+
+inside_movie["score"] = 8.2
+inside_movie["reviews"] = 492446
+
+
+inside_movie.pop("out_of")
+
+# adding new key/value pair to dictionary
+inside_movie["genre"] = ["Animation", "Adcanture", "Comedy"]
+
+# printing key/values
+
+# for i in inside_movie:
+#     []
+
+shrek_movie = {
+    "title": 'shrek',
+    "id": "tt0126029",
+    "year_released": 2001,
+    "rating": "PG",
+    "score": 7.9,
+    "reviews": 531432,
+    "genre": ["Animation", "adventure", "Comedy" ]
+}
