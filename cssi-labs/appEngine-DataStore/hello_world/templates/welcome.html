@@ -22,6 +22,11 @@
 
     <br>
     <br>
+      {% for item in query_result %}
+        {{ item.firstname }} <br>
+      {% endfor %}
+    <br>
+    <br>
     <form action="/showresults" method="POST">
       First name:<br>
       <input type="text" name="firstname" value="Mickey">
